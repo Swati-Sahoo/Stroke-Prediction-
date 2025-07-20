@@ -24,13 +24,15 @@ Model evaluated with **Accuracy** and **AUC** on test data
 ####Features**:
 `age`, `hypertension`, `heart_disease`, `avg_glucose_level`, `bmi`
  `gender`, `ever_married`, `work_type`, `Residence_type`, `smoking_status`
- # Project Structure
+# Project Structure
 stroke-prediction-ml/
 │
 ├── healthcare-dataset-stroke-data.csv   # Source dataset
 ├── stroke_predictor.py                  # Main script: training + user input + prediction
 ├── requirements.txt                     # Dependencies
 └── README.md                            # Project documentation
+
+
 #Future Enhancements
  Deploy as a Streamlit web app for user-friendly access
 
